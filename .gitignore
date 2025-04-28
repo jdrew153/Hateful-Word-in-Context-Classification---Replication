@@ -1,0 +1,18 @@
+# Exclude all CSV files
+*.csv
+*.log
+
+embeddings/
+
+# Exclude the archive folder
+archive/
+
+# Exclude the HateWiC folder
+HateWiC/
+
+# Exclude Python byte-code caches
+__pycache__/
+**/__pycache__/
+
+# Exclude virtual environment directory
+.venv/
